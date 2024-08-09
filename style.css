@@ -88,6 +88,7 @@ h1.banner-title {
 button.banner-btn {
     padding: 0.5rem 1rem;
     border: 0;
+    color: var(--title-1);
 }
 .btn {
     background-color: var(--btn);
@@ -96,26 +97,77 @@ img.banner-img {
     width: 40vw;
 }
 /* albums style  */
+.albums-main-box {
+    border: 2px solid red;
+    background-color: #f5f3f3eb;
+    display: grid;
+    margin: 3rem auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.3rem 0;
+    width: 70%;
+}
+.albums-box {
+    border: 2px solid black;
+    background-color: white;
+    width: 20vw;
+    margin: 0 auto 0.7rem;
+    box-shadow: 5px 7px 7px #8080806b;
+}
+.albums-text {
+    border: 2px solid yellow;
+    text-align: left;
+    padding: 0.3rem 0.3rem 1rem;
+}
 
+h3.albums-title {
+    font-size: 1rem;
+}
 
-
-
-
-
+p.albums-des {
+    font-size: 0.5rem;
+    color: var(--des);
+}
 
 .albums-img-box {
-    width: 10vw;
-    border: 2px solid blue;
-    padding: 5px;
+    text-align: center;
+    margin-top: 0.3rem;
 }
 /* img style  */
 .albums-image{
-width: 10vw;
+width: 19vw;
+}
+/* match style */
+section.match-container {
+    border: 2px solid red;
+    text-align: center;
+}
+.match {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 0 auto; */
+}
+.match-text-container {
+    border: 2px solid black;
+    width: 30vw;
+    margin: 2rem 0;
+    text-align: left;
+}
+h1.match-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.match-des-container {
+    font-size: 0.81rem;
+    margin: 1rem 0;
+    color: var(--des);
 }
 
 
 
 
+img {
+    width: 34vw;
+}
 
 
 
@@ -142,6 +194,25 @@ h1.banner-title {
         border: 2px solid black;
         text-align: center;
     }
+    /* album style  */
+    .albums-main-box {
+        border: 2px solid red;
+        background-color: #f5f3f3eb;
+        display: grid;
+        margin: 3rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0.3rem 0;
+        width: 60%;
+    }
+    .albums-box {
+        width: 90%;
+        margin-bottom: 0.7rem;
+}
+.albums-image {
+    width: 26vw;
+}
+
+
 }
 
 
@@ -173,6 +244,31 @@ h1.banner-title {
            img.banner-img {
             width: 78vw;
         }
+/* album style  */
+.albums-main-box {
+    border: 2px solid red;
+    background-color: #f5f3f3eb;
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+}
+.albums-box {
+    width: 94%;
+    margin-bottom: 0.7rem;
+}
+.albums-image {
+ width: 73vw;
+}
+h3.albums-title {
+    font-size: 2rem;
+}
 
+
+p.albums-des {
+    font-size: 0.8rem;
+    color: var(--des);
+    width: 53vw;
+}
 
 }
